@@ -1,0 +1,17 @@
+[package]
+name = "cplwm-x11"
+version = "0.1.0"
+authors = ["Thomas Winant <thomas.winant@cs.kuleuven.be>"]
+
+[dependencies]
+libc = "*"
+x11-dl = "2.9.0"
+lazy_static = "0.2.*"
+log = "0.3.*"
+rustc-serialize = "0.3.*"
+exec = "0.2.*"
+zombie = "0.0.4"
+
+[dependencies.cplwm-api]
+path = "../api"
+version = "*"

@@ -1,0 +1,2 @@
+[workspace]
+members = ["api", "assignment", "x11", "runner"]

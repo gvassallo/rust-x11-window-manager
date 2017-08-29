@@ -1,0 +1,21 @@
+[package]
+name = "cplwm-runner"
+version = "0.1.0"
+authors = ["Thomas Winant <thomas.winant@cs.kuleuven.be>"]
+
+[dependencies]
+x11-dl = "2.9.0"
+log = "0.3.*"
+simplelog = "0.2.*"
+
+[dependencies.cplwm-api]
+path = "../api"
+version = "*"
+
+[dependencies.cplwm-x11]
+path = "../x11"
+version = "*"
+
+[dependencies.cplwm-assignment]
+path = "../assignment"
+version = "*"

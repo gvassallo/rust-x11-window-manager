@@ -1,0 +1,7 @@
+[package]
+name = "cplwm-api"
+version = "0.1.0"
+authors = ["Thomas Winant <thomas.winant@cs.kuleuven.be>"]
+
+[dependencies]
+rustc-serialize = "0.3.*"
